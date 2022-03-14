@@ -10,7 +10,7 @@ spec:
  ingressClassName: nginx
  rules:
   # change the IP below based on the DNS resolution of your LB (under kubectl get svc -n ingress-nginx)
-  - host: 100.118.60.203.nip.io
+  - host: 34.248.240.203.nip.io.nip.io
     http:
       paths:
       - path: /moose(|$)(.*)
@@ -28,7 +28,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: 100.118.60.203.nip.io
+  - host: 34.248.240.203.nip.io
     http:
       paths:
       - backend:
@@ -40,5 +40,5 @@ spec:
         pathType: Prefix
   tls:
   - hosts:
-    - 100.118.60.203.nip.io
+    - 34.248.240.203.nip.io
     # secretName: __INGRESS_SECRET__
