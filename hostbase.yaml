@@ -16,7 +16,7 @@ spec:
   ingressClassName: nginx
   rules:
   # change the IP below based on the DNS resolution of your LB (under kubectl get svc -n ingress-nginx)
-  - host: 100.118.60.203.nip.io
+  - host: 34.248.240.203.nip.io
     http:
       paths:
       - path: /bear(/|$)(.*)
