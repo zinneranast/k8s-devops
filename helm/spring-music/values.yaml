@@ -1,0 +1,5 @@
+image: yanivomc/spring-music
+tag: latest
+service:
+  type: ClusterIP
+replicas: 1
