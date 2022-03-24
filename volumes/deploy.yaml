@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app-name: spring-music
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
