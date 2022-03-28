@@ -1,1 +1,2 @@
 yanivomc/spring-music:latest
+nginx/latest
