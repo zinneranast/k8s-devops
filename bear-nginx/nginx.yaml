@@ -32,7 +32,8 @@ spec:
       initContainers:
       - name: git
         image: alpine/git:latest
-        command: ["sh", "-c", "git", "clone", "$GIT_URL", "/cdn"]
+        command: ["git"]
+        args: ["clone", "$(GIT_URL)", "/cdn"]
         env:
         - name: GIT_URL
           valueFrom:
