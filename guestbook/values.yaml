@@ -1,4 +1,4 @@
-replicas: 1
+replicas: 2
 repo: gcr.io/heptio-images
 image: ks-guestbook-demo
 tag: 0.2
